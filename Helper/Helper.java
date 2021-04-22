@@ -1,8 +1,11 @@
 package Helper;
 
+
 public class Helper {
  public static void main (String args[])
  {
-	 System.out.print("Hello There");
+	 String username = System.getProperty("user.name");
+	 
+	 System.out.print(username);
  }
 }
